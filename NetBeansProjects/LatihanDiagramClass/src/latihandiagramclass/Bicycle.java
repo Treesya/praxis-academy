@@ -39,10 +39,8 @@ public class Bicycle {
     public void speedUp(int increment) {
         speed += increment;
     }
-        
-}
-
-public class MountainBike extends Bicycle {
+    
+  public class MountainBike extends Bicycle {
         
     // the MountainBike subclass has
     // one field
@@ -61,5 +59,8 @@ public class MountainBike extends Bicycle {
     public void setHeight(int newValue) {
         seatHeight = newValue;
     }   
+      
+}
+    
 
 }
