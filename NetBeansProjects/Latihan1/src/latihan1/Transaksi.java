@@ -32,6 +32,7 @@ public class Transaksi extends latihan1.Customer implements latihan1.Barang {
     }
 
     //override class interface
+    @Override
     public void setBarang(int kodeBarang, String namaBarang, float harga) {
         this.kodeBarang = kodeBarang;
         this.namaBarang = namaBarang;
